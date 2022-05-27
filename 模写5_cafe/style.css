@@ -1,0 +1,338 @@
+body {
+  margin: 0 auto;
+  font-family: "Helvetica Neue", "Arial", "Hiragino Sans",
+    "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+
+/* ===============
+header
+=============== */
+header {
+  background-position: center top;
+  margin-bottom: 0;
+}
+
+.header-wrapper {
+  min-height: 100vh;
+  background-image: url("img/mainvisual.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.header-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header-title img {
+  max-width: 100%;
+}
+
+.header-wrapper ul {
+  position: absolute;
+  display: flex;
+  list-style: none;
+  top: 25px;
+  right: 25px;
+}
+
+.header-wrapper li a {
+  padding-right: 20px;
+  color: #fff;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  filter: drop-shadow(1px 1px 2px #121212);
+  text-decoration: none;
+}
+
+.header-wrapper li a:hover {
+  color: red;
+}
+
+/* ===============
+section1 menu
+=============== */
+
+.section-wrapper {
+  background-image: url("img/menu.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-attachment: fixed;
+}
+
+.title-wrapper {
+  height: 300px;
+}
+
+.menu-title {
+  width: 100%;
+  color: #fff;
+  font-size: 4.5rem;
+  filter: drop-shadow(1px 1px 10px #c0c0c0);
+  margin: 0;
+  text-align: center;
+  line-height: 4;
+}
+
+.menu-title2 {
+  font-size: 2.5rem;
+  display: inline-block;
+  border-bottom: solid 6px #e03131;
+  margin-bottom: 60px;
+}
+
+.menu-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+.menu-container  {
+    max-width: 1000px;
+    padding: 90px 16px 150px 16px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+}
+
+.menu-left, .menu-right {
+  width: 50%;
+  padding: 0 45px;
+}
+
+.menu-left {
+  border-right: solid 1px #000;
+}
+
+.menu-left dl {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu-left dd {
+  width: 13%;
+  text-align: right;
+  padding-top: 8px;
+  margin-left: 0;
+}
+
+.menu-left dt {
+  width: 87%;
+  text-align: left;
+  border-bottom: dotted 1px #000;
+  margin-bottom: 25px;
+}
+
+.menu-right dl {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu-right dd {
+  width: 13%;
+  text-align: right;
+  padding-top: 8px;
+  margin-left: 0;
+}
+
+.menu-right dt {
+  width: 87%;
+  text-align: left;
+  border-bottom: dotted 1px #000;
+  margin-bottom: 25px;
+}
+
+
+/* ===============
+section1 about
+=============== */
+.section-wrapper2 {
+  background-image: url("img/about.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-attachment: fixed;
+}
+
+.about-wrapper {
+  width: 100%;
+  background-color: white;
+}
+
+.about-container {
+  max-width: 1000px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 90px 16px 150px 16px;
+}
+
+.about-item {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  list-style: none;
+  padding-left: 0px;
+  margin-bottom: 80px;
+}
+
+.item {
+  line-height: 2;
+  text-align: left;
+  width: 49%;
+  margin-bottom: 5px;
+}
+
+.about-container a {
+  position: relative;
+  text-decoration: none;
+}
+
+.btn {
+  width: 160px;
+  height: 50px;
+  line-height: 3.5;
+  display: inline-block;
+  color: #000;
+  padding: 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.btn span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.about-container .btn::before,
+.about-container .btn::after {
+  position: absolute;
+  content: "";
+  right: 0;
+  bottom: 0;
+  background: #e03131;
+  transition: all 0.3s ease;
+}
+.about-container .btn span::before,
+.about-container .btn span::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  background: #e03131;
+  transition: all 0.3s ease;
+}
+.about-container .btn::before,
+.about-container .btn span::before {
+  width: 2px;
+  height: 50%;
+}
+.about-container .btn::after,
+.about-container .btn span::after {
+  width: 20%;
+  height: 2px;
+}
+/*
+ホバー時の縦の動作
+右の赤線と左の赤線の高さを100%にする
+*/
+.about-container .btn:hover::before,
+.about-container .btn span:hover::before {
+  height: 100%;
+}
+/*
+ホバー時の横の動作
+下の赤線と上の赤線の横幅を100%にする
+*/
+.about-container .btn:hover::after,
+.about-container .btn span:hover::after {
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .about-item {
+    flex-direction: column;
+  }
+
+  .item {
+    width: 100%;
+  }
+
+  .menu-wrapper,.about-wrapper {
+    padding-bottom: 60px;
+}
+
+  .menu-container {
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .menu-title {
+    font-size: 2rem;
+    line-height :3;
+}
+
+  .menu-title2 {
+      font-size: 1.25rem;
+      margin-bottom: 25px;
+  }
+
+  .menu-left,.menu-right {
+    width: 100%;
+    padding: 0;
+  }
+
+  .menu-left {
+    border :none;
+  }
+
+  .title-wrapper {
+    height: 94px;
+  }
+
+  .about-container {
+    padding: 0;
+  }
+}
+
+/* ===============
+section2 location
+=============== */
+
+.section-wrapper3 {
+  background-image: url("img/location.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-attachment: fixed;
+}
+
+.location-wrapper {
+  background-color: white;
+}
+
+.location-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 90px 16px 150px 16px;
+}
+
+.location-title {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  font-size: 10px;
+}
