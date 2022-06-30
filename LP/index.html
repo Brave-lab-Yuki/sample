@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles-lp.css">
+    <script src="https://kit.fontawesome.com/478da8485c.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+
+    <div class="header">
+        <div class="logo">
+            <img src="./assets/logo.jpeg" alt="logo">
+        </div>
+        
+        <div class="firstview">
+            <!-- <img src="./assets/firstview.png" alt="firstview"> -->
+            <picture class="sample">
+                <source srcset="./assets/firstview.png" media="(min-width: 768px)" /><!-- ○○px以上で表示する画像 -->
+                <source srcset="./assets/firstview-sp.svg" media="(min-width: 414px)" /><!-- △△px以上で表示する画像 -->
+                <img src="./assets/firstview-sp.svg" alt="サンプル画像"/><!-- それ以外の場合に表示する画像 -->
+              </picture>
+        </div>
+
+
+    </div>
+    <div class="banner">
+        <a href="https://ps.learning-ware.jp/manehapi/registration"><img src="./assets/banner.svg" alt="バナー"></a>
+    </div>
+        <div class="section1">
+            <div><iframe src="https://player.vimeo.com/video/723380780?h=5a9c96faf7&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:26%;left:23%;width:52%;height:52%;" title="３分でわかるマネハピユニバーシティ"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+            <img src="./assets/section1.svg" alt="動画">
+        </div>
+        <div class="section2">
+            <!-- <div class="section2-img">
+                <img src="./assets/section2.svg" alt="">    
+            </div> -->
+            <div class="chart">
+                <section class="chartGraphBox">
+                    <h1 class="text">受講継続率</h1>
+                    <h1 class="text-percent">95</h1>
+                    <h1 class="text-percent2">％超</h1>
+                  <canvas id="chart1"></canvas>
+                </section>
+            </div> 
+
+            </div>
+        <div class="section3">
+            <div class="shisan fade-in fade-in-down"><img src="./assets/資産運用したいが.svg" alt="資産運用"></div>
+            <div class="tyokin fade-in fade-in-down"><img src="./assets/貯金ができない.svg" alt="貯金ができない"></div>
+            <div class="nakanaka fade-in fade-in-down"><img src="./assets/なかなか給料が.svg" alt="なかなか給料が"></div>
+            <div class="okane fade-in fade-in-down"><img src="./assets/お金の相談ができる.svg" alt="お金の相談ができる"></div>
+            <div class="imano fade-in fade-in-down"><img src="./assets/いまのままだと.svg" alt="いまのままだと"></div>
+            <div class="syuppi fade-in fade-in-down"><img src="./assets/出費がとにかく.svg" alt="出費がとにかく"></div>
+        </div>
+
+        <div class="section4">
+            <img src="./assets/section4.svg" alt="section4">
+        </div>
+
+        <div class="banner">
+            <a href="https://ps.learning-ware.jp/manehapi/registration"><img src="./assets/banner.svg" alt="バナー"></a>
+        </div>
+
+        <div class="section5"><img src="./assets/section5.svg" alt="section5">
+        </div>
+
+        <div class="section6">
+            <section class="chartGraphBox-bar">
+                <canvas id="chart2"></canvas>
+                <p class="price-1">1,000</p>
+                <p class="price-2">万円</p>
+                <p class="price-3">3,000</p>
+                <p class="price-4">万円</p>
+                <div class="sonosaha">
+                <img src="./assets/sonosaha.svg" alt="">
+            </div>
+            </section>
+
+        </div>
+        <div class="section7"><img src="./assets/section7.svg" alt="section7"></div>
+        <div class="section8">
+            <h4 class="section-text">受講者の声</h4>
+            <div class="cospa fade-in fade-in-down"><img src="./assets/コスパ.svg" alt="資産運用"></div>
+            <div class="syoseki fade-in fade-in-down"><img src="./assets/書籍だと.svg" alt="貯金ができない"></div>
+            <div class="okaneno fade-in fade-in-down"><img src="./assets/お金の知識.svg" alt="なかなか給料が"></div>
+            <div class="okanenokoto fade-in fade-in-down"><img src="./assets/お金のことは.svg" alt="お金の相談ができる"></div>
+            <div class="mimideha fade-in fade-in-down"><img src="./assets/耳では.svg" alt="いまのままだと"></div>
+            <div class="eigo fade-in fade-in-down"><img src="./assets/英語の.svg" alt="出費がとにかく"></div>
+        </div>
+
+        <div class="section9">
+            <img src="./assets/自分の未来.svg" alt="自分の未来">
+        </div>
+
+        <div class="banner">
+            <a href="https://ps.learning-ware.jp/manehapi/registration"><img src="./assets/banner.svg" alt="バナー"></a>
+        </div>
+
+        <div class="section10">
+            <img src="./assets/section10.svg" alt="紹介">
+        </div>
+
+        <div class="faq">
+            <img src="./assets/faq.svg" alt="faq">
+        </div>
+
+        <section class="accordion">
+            <input id="block-01" type="checkbox" class="toggle">
+            <label class="Label icon1" for="block-01">無料会員登録後は、どんな授業が見れますか？</label>
+            <div class="content">
+                <p>無料会員登録後は、有料会員様と同様の画面で授業を受けることができます。投資信託や株式投資など無料で見れる授業がいくつかありますのでお気軽にご視聴ください。</p>
+            </div>
+            <input id="block-02" type="checkbox" class="toggle">
+            <label class="Label icon2" for="block-02">受講前に用意しておかなければならないことはありますか？</label>
+            <div class="content">
+                <p>マネハピユニバーシティは、オンライン学習のため、スマートフォンまたはパソコン等をご用意ください。オンラインのパーソナルトレーニングを受講される方は、イヤホンやカメラ付きのパソコン等をご用意ください。</p>
+            </div>
+            <input id="block-03" type="checkbox" class="toggle">
+            <label class="Label icon3" for="block-03">自宅にインターネット環境は必要でしょうか？</label>
+            <div class="content">
+                <p>はい、Web上のあなたの専用の学習アカウントにアクセスをして、動画講座を受講して頂くため、インターネット環境が必要になります。<br>Wi-Fi環境または有線回線のインターネット環境が望ましいです
+            。</p>
+            </div>
+            <input id="block-04" type="checkbox" class="toggle">
+            <label class="Label icon4" for="block-04">月額費用の980円は、いつ決済されますか？</label>
+            <div class="content">
+                <p>クレジット決済にて、即時決済されます。決済方法につきましては、各クレジット会社へお問い合わせください。</p>
+            </div>
+            <input id="block-05" type="checkbox" class="toggle">
+            <label class="Label icon5" for="block-05">有料会員に申し込み後、いつからスタートしますか？</label>
+            <div class="content">
+                <p>有料会員に申込された後には、即日講座を視聴いただくことが可能です！</p>
+            </div>
+            <input id="block-06" type="checkbox" class="toggle">
+            <label class="Label icon6" for="block-06">オンライン授業は、いつでも見直すことができますか？</label>
+            <div class="content">
+                <p>はい、マネハピユニバーシティを受講している間は、すべての動画がいつでもご覧いただけます。繰り返し学びたい方は何度でも動画授業をご利用ください。※ただし、価格の異なるコースはこの限りではありません。</p>
+            </div>
+            <input id="block-07" type="checkbox" class="toggle">
+            <label class="Label icon7" for="block-07">平日仕事をしていて、毎日受講できるかわかりません。毎日受講できなくても大丈夫でしょうか？</label>
+            <div class="content">
+                <p>はい、動画講座はあなたの専用の学習アカウントにアクセスすれば、24時間365日いつでも動画講座を受講することができます。<br>毎日15分程度の時間が取れない方でも、休日に集中して学習する等、ご自身のペースで受講して頂くことができます。「いつまでに受講しなければならない」といった心配はいりません。</p>
+            </div>
+        </section>
+
+        <div class="section11">
+            <img src="./assets/contact.svg" alt="contact">
+        </div>
+        
+
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.2.1/Chart.js"></script>
+    <script src="./js/main.js"></script>
+    
+</body>
+
+</html>
