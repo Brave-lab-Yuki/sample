@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+    <main>
+        <header class="header">
+            <div class="header_inner">
+              <div class="logo">
+              <h1 class="title">ロゴ</h1>
+              </div>
+              <nav class="nav">
+                <ul class="nav_list">
+                  <li class="nav_item"><a href="#">トップ</a></li>
+                  <li class="nav_item"><a href="#">ニュース</a></li>
+                  <li class="nav_item"><a href="#">取扱商品</a></li>
+                  <li class="nav_item"><a href="#">運営方針</a></li>
+                  <li class="nav_item"><a href="#">会社情報</a></li>
+                  <li class="nav_item"><a href="#">お問い合わせ</a></li>
+                  <li class="nav_item"><a href="#">パーソナル型マーケティングシステムとは</a></li>
+
+                </ul>
+              </nav>
+            </div>
+            <div class="hamburger" id="js-hamburger">
+              <span class="hamburger_border hamburger_border_top"></span>
+              <span class="hamburger_border hamburger_border_center"></span>
+              <span class="hamburger_border hamburger_border_bottom"></span>
+            </div>
+            <div class="black_bg" id="js-black-bg"></div>
+          </header>
+
+        <section class="first-view">
+            <p class="first-view__title">未来を打ち抜け</p>
+            <p class="first-view__subtitle">パーソナル型マーケティングシステムは進化し続ける</p>
+
+            <picture class="first-view__img">
+                <source srcset="./assets/firstview.svg" media="(min-width: 768px)" /><!-- ○○px以上で表示する画像 -->
+                <source srcset="./assets/firstview-tab.svg" media="(min-width: 414px)" /><!-- △△px以上で表示する画像 -->
+                <img src="./assets/firstview-sp.svg" alt="サンプル画像"/><!-- それ以外の場合に表示する画像 -->
+              </picture>
+
+        </section>
+
+        <section class="generation">
+            <p class="generation__title fadeInBefore fadeInAfter">世界は<br>ハイパーインフレの時代に<br>突入した</p>
+            <div class="generation__graph fadeInBefore fadeInAfter">
+                <img src="./assets/graph.jpg" alt="グラフ">
+            </div>
+            <p class="generation__graph-link fadeInBefore fadeInAfter">
+                出典:https://www.businessinsider.jp/post-255358?itm_source=article_link&itm_campaign=/post-255278&itm_content=https://www.businessinsider.jp/post-255358
+            </p>
+            <p class="generation__text fadeInBefore fadeInAfter">
+                新型コロナウイルスの感染拡大により国際経済は長期的なダメージを受け、
+                アメリカを中心にインフレが加速しつつあります。<br>アメリカのインフレ率は8.6％を越え、いつハイパーインフレに突入してもおかしくない状態です。<br>日本国内に住んでいても輸入品の高騰で物価高に大きく影響します。<br>
+                インフレが進むとグローバルな視点であなたの資産価値はどんどん下がっていくのです。<br>しかしこれはチャンスでもあるのです。<br>インフレで大多数の人は資産価値を減少させますが、一部の人は利益を出しています。<br>資産を守り、増やしていくためのマーケティングが必須なのです。
+            </p>
+        </section>
+
+        <section class="news">
+            <a id="news-link"></a>
+            <p class="section-subtitle fadeInBefore fadeInAfter">
+                NEWS
+            </p>
+            <h1 class="section-maintitle fadeInBefore fadeInAfter">
+                ニュース
+            </h1>
+
+            <div class="news__text-group fadeInBefore fadeInAfter">
+                <p class="news__text-day">
+                    2022/06/10
+                </p>
+                <p class="news__text">パーソナル型マーケティングシステムをアップデートしました。<br>
+                    ロシア・ウクライナ戦争の長期的な影響を分析し、パーソナル型マーケティングシステムに反映しました。
+                </p>
+            </div>
+            <div class="news__text-group2 fadeInBefore fadeInAfter">
+                <p class="news__text-day2">
+                    2022/01/13
+                </p>
+                <p class="news__text">
+                    パーソナル型マーケティングシステム利用実績が10,000名を突破しました。<br>約3年間でパーソナル型マーケティングシステム利用実績が10,000名を突破しました。
+                </p>
+            </div>
+            <div class="news__text-group2 fadeInBefore fadeInAfter">
+                <p class="news__text-day2">
+                    2021/7/25
+                </p>
+                <p class="news__text">URBAN Image Datasetの研究を開始しました。<br>
+                    衛星画像を自動分析による自動車の動き、人の動きの未来予測をマーケティングシステムに取り入れる研究を本格始動しました。
+                </p>
+            </div>
+        </section>
+
+        <section class="intro">
+            <a id="intro-link"></a>
+            <p class="section-subtitle fadeInBefore fadeInAfter">
+                INTRODUCTION
+            </p>
+            <h1 class="section-maintitle fadeInBefore fadeInAfter">
+                パーソナル型マーケティングシステムとは
+            </h1>
+            <div class="intro__container">
+                <div class="intro__img fadeInBefore fadeInAfter">
+                    <img src="./assets/intro-img.svg" alt="パーソナルマーケティングシステムとは">
+                </div>
+                <p class="intro__text fadeInBefore fadeInAfter">
+                    g.mマネージングは大衆向けの画一的なマーケティングツールではなく1人ひとりカスタマイズ可能なパーソナル型のマーケティングシステムを提供させて頂いております。<br>
+                    投資家様の資産状況、目標資産額、投資経験値、運用可能期間などから投資対象を決定し、売買のエントリーから決済まで最適化することができるツールとなります。<br>
+                    カスタマイズ項目は1,000以上におよびますが、簡単な情報入力からAIによる自動判定によりほとんどの項目が埋まるためカスタマイズに手間は掛かりません。
+                </p>
+            </div>
+        </section>
+
+        <section class="feature">
+            <a id="feature-link"></a>
+            <p class="section-subtitle fadeInBefore fadeInAfter">
+                FEATURE
+            </p>
+            <h1 class="section-maintitle fadeInBefore fadeInAfter">
+                パーソナル型マーケティングシステムのこだわり
+            </h1>
+            <div class="feature__container">
+                <div class="feature__contents1 fadeInBefore fadeInAfter">
+                    <div class="feature__text-group">
+                        <p class="feature__text-title">
+                            投資商品の超詳細情報まで<br>ワンストップで確認可能
+                        </p>
+                        <p class="feature__text">
+                            例えば日経平均の動向について過去～現在までの値動きはもちろんのこと、日経平均に影響しうるニュースだけの抽出、相場の傾向、1時間後～1年後までの値動きの予測まで１つのツール内で事細かに確認することができます。<br>
+                            16の投資カテゴリー、合計約12,500銘柄全てにおいて超詳細情報が常に最新の状態となります。
+                        </p>
+                    </div>
+                    <picture class="feature__img">
+                        <source srcset="./assets/feature-1.svg" media="(min-width: 768px)" /><!-- ○○px以上で表示する画像 -->
+                        <source srcset="./assets/feature-1-sp.svg" media="(max-width: 480px)" /><!-- △△px以上で表示する画像 -->
+                        <img src="./assets/feature-1.svg" alt="サンプル画像"/><!-- それ以外の場合に表示する画像 -->
+                      </picture>
+                </div>
+                <div class="feature__contents1 fadeInBefore fadeInAfter">
+                    <div class="feature__text-group">
+                        <p class="feature__text-title">
+                            マーケティング能力の高さ
+                        </p>
+                        <p class="feature__text2">
+                            投資商品の値動きを最先端AIで分析することはもちろんのこと、グローバルな営業支部を活かして各国の経済アナリストと毎日コミュニケーションを取りアナログな情報交換も行っております。<br>インターネット上のデータを見るだけでなく、現地の情報と照らし合わせ、マーケティングの正確性を高める作業を毎日行っております。
+                        </p>
+                    </div>
+                    <picture class="feature__img">
+                        <source srcset="./assets/feature-2.svg" media="(min-width: 768px)" /><!-- ○○px以上で表示する画像 -->
+                        <source srcset="./assets/feature-2-sp.svg" media="(max-width: 480px)" /><!-- △△px以上で表示する画像 -->
+                        <img src="./assets/feature-2.svg" alt="サンプル画像"/><!-- それ以外の場合に表示する画像 -->
+                      </picture>
+                </div>
+            </div>
+
+            <div class="feature__container">
+                <div class="feature__contents1 fadeInBefore fadeInAfter">
+                    <div class="feature__text-group">
+                        <p class="feature__text-title">
+                            URBAN Image Datasetの活用
+                        </p>
+                        <p class="feature__text">
+                            元々農業の耕作状態の分析などで使われていた衛星画像分析ですが、衛星画像の精度が高くなったことにより、街中にどの程度外出している人がいるのか、車がどれくらい動いているのかまで分析することができるようになりました。<br>
+                            これらの街の活性度を分析するという新しい取り組みを行っております。マーケティングに取り入れている事例は他になく世界初の事例となります。
+                        </p>
+                    </div>
+                    <picture class="feature__img">
+                        <source srcset="./assets/feature-3.svg" media="(min-width: 768px)" /><!-- ○○px以上で表示する画像 -->
+                        <source srcset="./assets/feature-3-sp.svg" media="(max-width: 480px)" /><!-- △△px以上で表示する画像 -->
+                        <img src="./assets/feature-3.svg" alt="サンプル画像"/><!-- それ以外の場合に表示する画像 -->
+                      </picture>
+                </div>
+                <div class="feature__contents1 fadeInBefore fadeInAfter">
+                    <div class="feature__text-group4">
+                        <p class="feature__text-title4">
+                            弊社専門マーケティング人材の厚み
+                        </p>
+                        <p class="feature__text4">
+                            各専門分野の人材を積極的に採用し、多角的な視点からマーケティングを行っております。<br>
+                            多角的な視点からマーケティングを行うことにより、より正確で繊細な結果を得る事ができます。<br>
+                            外資投資銀行など外資金融系企業を中心に、大手コンサルティング会社、大手戦略系ファーム、会計系ファーム、大手Webサービス企業、ネット系ベンチャー、国内大手メーカー・サービス業の情報システム・企画・新規事業部門などで活躍されていたプロフェッショナル人材など様々な方面の出身者が集まり、各分野の専門人材の厚みを持っております。
+
+                        </p>
+                    </div>
+                    <picture class="feature__img">
+                        <source srcset="./assets/feature-4.svg" media="(min-width: 768px)" /><!-- ○○px以上で表示する画像 -->
+                        <source srcset="./assets/feature-4-sp.svg" media="(max-width: 480px)" /><!-- △△px以上で表示する画像 -->
+                        <img src="./assets/feature-4.svg" alt="サンプル画像"/><!-- それ以外の場合に表示する画像 -->
+                      </picture>
+                </div>
+            </div>
+        </section>
+
+        <section class="products">
+            <a id="products-link"></a>
+            <p class="section-subtitle fadeInBefore fadeInAfter">
+                PRODUCTS
+            </p>
+            <h1 class="section-maintitle fadeInBefore fadeInAfter">
+                取扱商品
+            </h1>
+            <p class="products__summary fadeInBefore fadeInAfter">
+                資産規模、目標資産額、投資対象商品に応じて３つのパーソナル型マーケティングシステムをご用意しております。
+            </p>
+            <div class="wrap fadeInBefore fadeInAfter">
+                <table>
+                        <thead>
+                            <tr>
+                              <th scope="col"></th>
+                              <th scope="col" class="red_bk">GIGA</th>
+                              <th scope="col">Standard</th>
+                              <th scope="col">Small</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                              <th>資産規模</th>
+                              <td>1,000万円～運用可能</td>
+                              <td>100万円～運用可能</td>
+                              <td>10万円～運用可能</td>
+                            </tr>
+                            <tr>
+                              <th>目標資産額</th>
+                              <td>最高10億円</td>
+                              <td>最高1億円</td>
+                              <td>最高3,000万円</td>
+                            </tr>
+                            <tr>
+                              <th>投資対象</th>
+                              <td>約12,500銘柄全てに対応</td>
+                              <td>約5,500銘柄に対応</td>
+                              <td>約2,500銘柄に対応</td>
+                            </tr>
+                            <tr class="btnarea">
+                              <th class="non"></th>
+                              <td><a class="btn" href="#">お問い合わせ</a></td>
+                              <td><a class="btn" href="#">お問い合わせ</a></td>
+                              <td><a class="btn" href="#">お問い合わせ</a></td>
+                            </tr>
+                                
+                        </tbody>
+                    </table>
+                </div>
+        </section>
+
+        <section class="strength">
+            <p class="section-subtitle fadeInBefore fadeInAfter">
+                STRENGTH
+            </p>
+            <h1 class="section-maintitle fadeInBefore fadeInAfter">
+                資産形成の期間も幅広く対応！
+            </h1>
+            <div class="strength__img fadeInBefore fadeInAfter">
+                <img src="./assets/products-img.jpg" alt="PC">
+            </div>
+
+            <p class="strength__text fadeInBefore fadeInAfter">
+                1ヶ月の短期から5年以上の長期まで、さまざまなケースに幅広く対応！<br>
+                運用途中で資産規模が大きくなった場合、パーソナル型マーケティングシステムSmallからStandardに移行するなどももちろん可能です。<br>
+                また、最初はシステム導入はなしで資産形成プランニングフェーズだけというスポットでのご依頼にも対応しております。
+            </p>
+        </section>
+
+        <section class="company">
+            <a id="company-link"></a>
+
+            <p class="section-subtitle fadeInBefore fadeInAfter">
+                COMPANY
+            </p>
+            <h1 class="section-maintitle fadeInBefore fadeInAfter">
+                会社情報
+            </h1>
+
+            <div class="company__wrapper fadeInBefore fadeInAfter">
+                <div class="company__text-group1">
+                    <p class="company__text">
+                        会　社　名
+                    </p>
+                    <p class="company__text">
+                        g.m マネージング
+                    </p>
+                </div>
+                <div class="company__text-group1">
+                    <p class="company__text">
+                        所　在　地
+                    </p>
+                    <!-- <p class="company__text">
+                    </p> -->
+                </div>
+                <div class="company__text-group1">
+                    <p class="company__text">
+                        代表取締役
+                    </p>
+                    <!-- <p class="company__text">
+                    </p> -->
+                </div>
+                <div class="company__text-group1">
+                    <p class="company__text">
+                        設　立　日
+                    </p>
+                    <!-- <p class="company__text">
+                    </p> -->
+                </div>
+                <div class="company__text-group1">
+                    <p class="company__text">
+                        事 業 内 容 
+                    </p>
+                    <p class="company__text7">
+                        NDF.AI自動取引システムの開発及び提供<br>パーソナル型マーケティングシステムの提供<br>URBAN Image Datasetの研究開発<br>マネーコンサルティング<br>アセット市場調査事業
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact">
+            <a id="contact-link"></a>
+            <p class="section-subtitle fadeInBefore fadeInAfter">
+                CONTACT
+            </p>
+            <h1 class="section-maintitle fadeInBefore fadeInAfter">
+                お問い合わせ
+            </h1>
+            
+        <p class="contact__subtitle fadeInBefore fadeInAfter">
+            サービス利用申し込み、ご質問などは以下お問い合わせフォームよりお願いいたします。<br>翌営業日までにご連絡差し上げます。<br><br>営業時間：平日9時～17時
+        </p>
+        <form name="contact" method="POST" action="/thanks.html" class="form" netlify-honeypot="bot-field" data-netlify="true">
+        <div class="Form">
+            <div class="Form-Item">
+              <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>お名前</p>
+              <input type="text" name="name" class="Form-Item-Input" placeholder="例）山田太郎">
+            </div>
+            <div class="Form-Item">
+              <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>フリガナ</p>
+              <input type="text" name="name" class="Form-Item-Input" placeholder="例）ヤマダタロウ">
+            </div>
+            <div class="Form-Item">
+              <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>電話番号</p>
+              <input type="text" class="Form-Item-Input" placeholder="例）000-0000-0000">
+            </div>
+            <div class="Form-Item">
+              <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>Mail</p>
+              <input type="email" class="Form-Item-Input" placeholder="例）example@gmail.com">
+            </div>
+            <div class="Form-Item">
+              <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>件名</p>
+              <input type="name" class="Form-Item-Input" placeholder="例）example@gmail.com">
+            </div>
+            <div class="Form-Item">
+              <p class="Form-Item-Label isMsg"><span class="Form-Item-Label-Required">必須</span>お問い合わせ内容</p>
+              <textarea class="Form-Item-Textarea" name="message" placeholder="サービス利用申し込みの場合はその旨ご記載ください。"></textarea>
+            </div>
+            <input type="submit" class="Form-Btn" value="送信する">
+          </div>
+        </form>
+          <p class="bottom">本サイトは弊社商品の紹介のみを目的としており、特定の投資商品などの売買を推奨するものではありません。</p>
+        </section>
+
+        <footer class="footer">
+            <p class="footer__copy">&copy;g.mマネージング All Rights Reserved.</p>
+        </footer>
+
+    </main>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
